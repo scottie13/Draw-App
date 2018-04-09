@@ -1,0 +1,35 @@
+@media screen and (max-width: 1520px) {
+    .tools {
+        right: 1.7%;
+        /* visibility: hidden; */
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .tools {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 1100px) {}
+
+@media screen and (max-width: 800px) {
+    .tools {
+        right: 2.7%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .tools {
+        visibility: hidden;
+        right: 2.7%;
+    }
+    .clr-btn {
+        visibility: hidden;
+    }
+    .body {
+        width: 90%;
+        height: 725px;
+        left: 5%;
+    }
+}

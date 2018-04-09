@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Draw</title>
+    <!-- BOOTSTRAP -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- GOOGLE WEB FONTS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- COLOR PICKER PLUGIN -->
+    <link rel='stylesheet' href='css/spectrum.css' />
+
+    <link rel="stylesheet" href="css/draw.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/nibs.css">
+</head>
+
+<body>
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg  navbar-light bg-light">
+        <a class="navbar-brand" href="#">DRAWING APP</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">@ <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"></a>
+                </li>
+            </ul>
+
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+
+        </div>
+    </nav>
+    <!-- END OF NAV BAR -->
+
+    <div class="toolkit">
+        toolkit
+    </div>
+
+    <!-- MAIN PAGE BODY -->
+    <div class="body" id="body">
+        <!-- LAYOUT THE DAWING AREA WITH CSS3 GRID -->
+        <div class="wrapper">
+
+            <div class="the_canvas" id="the_canvas">
+
+            </div>
+
+            <div class="body_sec1" id="body_sec1">
+
+
+            </div>
+
+            <div class="tools">
+
+                <button type="button" data-toggle="tooltip" data-placement="right" title="Select a Color" class=" btn btn-light pick_color color_toggle" id="pick_color">PICK A COLOR!</button>
+                <div class=" colors " id="colors">
+
+                    <input class=" container color_picker" type='text' id="flat" />
+                </div>
+                <hr>
+
+                <button class=" btn btn-light select_nibs" id="select_nibs"> BRUSH NIBS</button>
+
+                <div class="nibs" id="nibs">
+
+                    <div class="container">
+
+                        <p id="pcl"> PENCIL</p>
+                        <div class="pencil brush" id="pencil"></div>
+
+                    </div>
+
+                    <div class="container">
+
+                        <p id="mrk"> MARKER</p>
+                        <div class="marker brush " id="marker"></div>
+
+                    </div>
+
+                    <div class="container">
+
+                        <p id="ikp">BRUSH</p>
+                        <div class="inkpen brush" id="inkpen"></div>
+
+                    </div>
+
+                    <div class="container">
+
+                        <p id="pen_nib"> PEN</p>
+                        <div class="pencil brush" id="pen"></div>
+
+                    </div>
+
+                    <div class="container">
+
+                        <p id="cyon">CRAYON</p>
+                        <div class="marker brush " id="crayon"></div>
+
+                    </div>
+
+                    <div class="container">
+
+                        <p id="erc">ERACER</p>
+                        <div class="inkpen brush" id="eracer"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- holds the canvas contol element -->
+        <div class="controls" id="controls">
+
+
+        </div>
+    </div>
+    <!-- END OF MAIN PAGE BODY -->
+
+
+
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- P5JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.min.js"></script>
+
+    <!-- COLOR PICKER PLUGIN -->
+    <script src='js/spectrum.js'></script>
+
+    <script src="js/draw.js"></script>
+    <script src="js/drawing_class.js"></script>
+    <script src="js/color_picker.js"></script>
+    <script src="js/custom_col_picker.js"></script>
+    <script src="js/nib-selector.js"></script>
+    <script src="js/brush_select.js"></script>
+</body>
+
+</html>

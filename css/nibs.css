@@ -1,0 +1,82 @@
+/* THE BRUSH SELECTIONS */
+
+.nibs {
+    top: -1px;
+    position: relative;
+    border: 1px solid lightgray;
+    width: 100%;
+}
+
+.brush {
+    border-radius: 175.9px;
+    margin: 5px;
+}
+
+.brush:hover {
+    background: #17C422;
+}
+
+.pencil {
+    position: relative;
+    border: 1px solid lightgray;
+    width: 25px;
+    height: 25px;
+    left: 10%;
+    padding-top: 13px;
+}
+
+.marker {
+    position: relative;
+    border: 1px solid lightgray;
+    width: 25px;
+    height: 25px;
+    left: 10%;
+    padding-top: 13px;
+}
+
+.inkpen {
+    position: relative;
+    border: 1px solid lightgray;
+    width: 25px;
+    height: 25px;
+    left: 10%;
+    padding-top: 13px;
+}
+
+.container>p {
+    position: relative;
+    width: 18%;
+    right: -6.9%;
+    /* border-bottom: 1px solid lightgray; */
+    text-align: left;
+    color: lightgray;
+}
+
+.add_nib_color {
+    background: #0070ff;
+}
+
+.brush_size_val {
+    width: 5%;
+    border: 1px solid lightgray;
+    text-align: center;
+    background: lightgray;
+    color: white;
+    border-radius: 3.98px;
+}
+
+.pick_color {
+    margin-bottom: 10px;
+}
+
+.pick_color:hover {
+    cursor: pointer;
+}
+
+.select_nibs {
+    margin-bottom: 10px;
+}
+
+.select_nibs:hover {
+    cursor: pointer;
+}

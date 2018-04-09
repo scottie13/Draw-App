@@ -1,0 +1,78 @@
+.body {
+    top: 30.9px;
+    position: relative;
+    border: 1px solid lightgray;
+    width: 95%;
+    height: 900px;
+    left: 3.1%;
+    margin-bottom: 25px;
+}
+
+canvas {
+    top: 15px;
+    position: relative;
+    margin: 10px;
+    cursor: crosshair;
+}
+
+.tools {
+    top: 25px;
+    position: relative;
+    min-width: 400px;
+    width: 11.3%;
+    float: right;
+    right: 0.7%;
+    text-align: center;
+}
+
+.colors {
+    position: relative;
+    text-align: center;
+    padding: 1px;
+}
+
+.color_picker {
+    position: relative;
+    left: 1000px;
+}
+
+
+/* the clear buton */
+
+button.color_toggle {
+    position: relative;
+    /* left: 7.3%; */
+}
+
+.clear {
+    background: #f1f1f1;
+}
+
+hr {
+    width: 98%;
+}
+
+div.controls {
+    top: 850px;
+    position: relative;
+}
+
+
+/* button clears the canvas */
+
+.clr-btn {
+    position: relative;
+}
+
+
+/* menu bar above the canvas */
+
+.toolkit {
+    top: 15px;
+    position: relative;
+    border: 1px solid lightgray;
+    width: 90%;
+    height: 50px;
+    left: 5.8%;
+    text-align: center;
+}

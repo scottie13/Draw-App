@@ -1,0 +1,3 @@
+// $("#custom").spectrum({
+//     color: "green"
+// });
