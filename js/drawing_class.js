@@ -1,3 +1,5 @@
+// class to control the different brushes
+
 class DrawingTools {
 
     constructor(size) {
@@ -8,7 +10,7 @@ class DrawingTools {
             color_picked = $("#flat").spectrum("get");
             choose_clr = color_picked.toRgb();
         }
-        // pencil brush
+        // pencil tool
     pencils(size) {
 
             strokeWeight(this.size);
@@ -19,7 +21,7 @@ class DrawingTools {
     marker(size) {
         strokeWeight(this.size);
         stroke(choose_clr.r, choose_clr.g, choose_clr.b);
-        line(mouseX - 10, mouseY - 10, pmouseX + 10, pmouseY + 10);
+        line(mouseX - 1 * 3, mouseY - 1 * 3, pmouseX + 1 * 3, pmouseY + 1 * 3);
     }
     crayon(size) {
 

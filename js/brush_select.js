@@ -6,7 +6,7 @@ function selectNib(brush_val = pencil) {
 }
 
 // calls the class that creates the ellipse
-let pencil = (size) => {
+let pencil = size => {
 
     // constrols the size of the pencil
     this.size = size;
@@ -14,7 +14,7 @@ let pencil = (size) => {
     draw.pencils();
 }
 
-let markers = (size) => {
+let markers = size => {
 
     // constrols the size of the pencil
     this.size = size;

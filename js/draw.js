@@ -12,6 +12,7 @@ let brush_size, brush_size_val;
 
 let toolbox, color_picked, choose_clr, slider;
 
+// using p5.js set up
 function setup() {
     canvs = createCanvas(page_w / 1.60, page_h / 1.20).parent('the_canvas').position(10, 0);
     background(canvas_color);
@@ -46,8 +47,9 @@ function mouseDragged() {
     if (mouseX < width && mouseX > 0 && mouseY < height && mouseY > 0) {
 
         // selects the pencil
-        // pencil(brush_size);
-        markers(brush_size);
+        pencil(brush_size);
+        // the marker tool
+        // markers(brush_size);
 
         // selectNib();
 

@@ -6,6 +6,7 @@
     height: 900px;
     left: 3.1%;
     margin-bottom: 25px;
+    overflow: hidden;
 }
 
 canvas {
@@ -71,8 +72,8 @@ div.controls {
     top: 15px;
     position: relative;
     border: 1px solid lightgray;
-    width: 90%;
+    width: 95%;
     height: 50px;
-    left: 5.8%;
+    left: 2.99%;
     text-align: center;
 }
